@@ -7,7 +7,7 @@ A new algorithm for image denoising
 
 <https://ivul.kaust.edu.sa/Pages/Pub-LoTv-Image-Restoration.aspx>
 
-代码使用的是 Matlab 和 C/C++ 混合编程的方法，并行版本使用的是 Pthreads ，当然也有纯 Matlab 版本的。目前只写了用于 512*512 黑白图片的代码。在 Ubuntu 14.04 bit 和 Matlab 2014a 的环境下编译通过。
+代码使用的是 Matlab 和 C/C++ 混合编程的方法，并行版本使用的是 Pthreads ，当然也有纯 Matlab 版本的。目前只写了用于 512*512 黑白图片的代码。由于模型对于 RGB 三层有可分性，所以可以将代码分别作用到 RGB 三层，即得彩色图片的去噪结果。代码在 Ubuntu 14.04 bit 和 Matlab 2014a 的环境下编译通过。
 
 ## 使用
 
